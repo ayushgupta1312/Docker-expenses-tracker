@@ -26,17 +26,11 @@ The Expenses Tracker App is a robust financial management solution developed usi
 
 ## Getting Started
 1. **Clone the Repository:**
-`git clone https://github.com/your-username/expenses-tracker.git`
+`git clone https://github.com/ayushgupta1312/Docker-expenses-tracker.git`
+cd Docker-expenses-tracker
 
-2. **Configure Database:**
-Set up MySQL database and update the application.properties file with your database configuration.
-
-3. **Build and Run:**
-Build the project using your preferred IDE or with Maven:
-`mvn clean install`.
-
-4. **Run the application:**
-`java -jar target/expenses-tracker.jar`.
+3. **Start the services using Docker Compose:**
+docker-compose up -d
 
 5. **Access the App:**
 Open your web browser and navigate to `http://localhost:8080`.
